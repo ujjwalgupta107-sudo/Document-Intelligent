@@ -49,7 +49,7 @@ st.markdown("""
 
 # 3. Sidebar for Setup (Keeping the main area clean)
 with st.sidebar:
-    st.header("⚙️ Configuration")
+    st.header(" Configuration")
     st.info("Enter your Azure credentials below to begin.")
     endpoint = st.text_input("Azure Endpoint", placeholder="https://your-resource.cognitiveservices.azure.com/")
     key = st.text_input("API Key", type="password")
@@ -62,7 +62,7 @@ with st.sidebar:
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.title("✨ DocuGlass AI")
+    st.title(" DocuGlass AI")
     st.markdown("#### Modern Document Extraction")
     
     uploaded_file = st.file_uploader("Drop your document here", type=["png", "jpg", "jpeg", "pdf"])
