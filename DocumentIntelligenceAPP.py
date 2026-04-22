@@ -6,7 +6,7 @@ from azure.ai.documentintelligence import DocumentIntelligenceClient
 st.set_page_config(
     page_title="DocuGlass AI", 
     page_icon="✨", 
-    layout="wide"
+    layout="wide"   
 )
 
 # 2. Custom Glossy CSS
